@@ -1,0 +1,20 @@
+.custom{
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    &:hover{
+        .op{
+            display: block;
+        }
+        
+    }
+    .title{
+        padding:0 4px;
+    }
+    .op{
+        display: flex;
+        align-items: center;
+        display: none;
+        
+    }
+}

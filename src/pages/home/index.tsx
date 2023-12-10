@@ -8,8 +8,8 @@ const Home = () => {
     const [isAdmin, setIsAdmin] = useState(false);
     useEffect(() => {
         actions.onGlobalStateChange((state) => {
-            const { userInfo } = state;
-            setIsAdmin(!!userInfo.username);
+            const { userInfo } = state || {};
+            setIsAdmin(!!userInfo?.username);
         }, true);
     }, []);
     return (

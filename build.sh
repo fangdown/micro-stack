@@ -1,3 +1,3 @@
 yarn build
-rm -rf /Users/mac/data/html/subapp/stack
-cp -R dist/ /Users/mac/data/html/subapp/stack
+rm -rf /var/html/subapp/stack
+cp -R dist/ /var/html/subapp/stack

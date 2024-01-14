@@ -2,8 +2,8 @@ import axios from 'axios';
 import { message } from 'antd';
 
 // const DEV_BASE_API = 'http://localhost:11000';
-const DEV_BASE_API = 'https://api.git123.cn';
-const PRO_BASE_API = 'https://api.git123.cn';
+const DEV_BASE_API = 'https://api.fangdown.cn';
+const PRO_BASE_API = 'https://api.fangdown.cn';
 const API = process.env.NODE_ENV === 'development' ? DEV_BASE_API : PRO_BASE_API;
 // create an axios instance
 const service = axios.create({

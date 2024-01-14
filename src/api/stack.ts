@@ -1,5 +1,5 @@
 import axios from './request';
-// axios.defaults.baseURL = 'https://api.git123.cn';
+// axios.defaults.baseURL = 'https://api.fangdown.cn';
 // axios.defaults.baseURL = 'http://localhost:11000';
 // axios.defaults.headers.common['Authorization'] = sessionStorage.getItem('token') || '';
 
